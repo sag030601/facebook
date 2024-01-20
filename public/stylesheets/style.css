@@ -1,0 +1,141 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  background: #efefef;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  position: relative;
+}
+
+/* .registerForm{
+  position: absolute;
+  top: 10vh;
+  height: 80vh;
+  width: 30vw;
+  background: white;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+} */
+
+
+
+.registerForm {
+  display: none;
+  position: absolute;
+  top: 10vh;
+  height: 80vh;
+  width: 30vw;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  z-index: 1;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  transform: translate(50px,9px);
+}
+
+.registerForm i{
+  position: absolute;
+  right: 15px;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.background-blur{
+  display: none;
+  position: absolute;
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  width: 100vw;
+}
+
+.signupForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupForm button{
+  background: green;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: bolder;
+}
+
+
+
+.registerTxt h2{
+  font-size: 1.1vw;
+    color: #7d7777;
+    border-bottom: 1px solid #7d7777;
+    padding-bottom: 5px;
+    font-weight: lighter;
+}
+
+.txt h1{
+  font-size: 4vw;
+  font-weight: bolder;
+  color: #1877f2;
+}
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#login{
+  background: #1877f2;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+form a{
+  color: #1877f2;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+}
+
+form{
+  height: 50vh;
+  width: 25vw;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  padding: 15px;
+}
+
+form input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(225, 221, 221);
+}
+
+#Create{
+  padding: 10px;
+width: 50%;
+display: block;
+margin: 0 auto;
+border: none;
+border-radius: 5px;
+background-color: green;
+color: white;
+text-align: center;
+}
